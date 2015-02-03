@@ -15,24 +15,30 @@ def indent(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
-tree = ET.parse('data.xml')
-root = tree.getroot()
+run = True
+while(run):
+    tree = ET.parse('data.xml')
+    root = tree.getroot()
 
-poi = ET.SubElement(root, 'poi')
-poi.set('key', 'BESC')
+    poi = ET.SubElement(root, 'poi')
+    poi.set('key', input('Enter key: '))
 
-name = ET.SubElement(poi, 'name')
-name.text = 'Benson Earth Sciences'
+    name = ET.SubElement(poi, 'name')
+    name.text = input('Enter name: ')
 
-latitude = ET.SubElement(poi, 'latitude')
-latitude.text = '40.007921'
+    latitude = ET.SubElement(poi, 'latitude')
+    latitude.text = input('Enter lat: ')
 
-longitude = ET.SubElement(poi, 'longitude')
-longitude.text = '105.265934'
+    longitude = ET.SubElement(poi, 'longitude')
+    longitude.text = input('Enter long: ')
 
-category = ET.SubElement(poi, 'category')
-category.text = 'Academic'
+    category = ET.SubElement(poi, 'category')
+    category.text = input('Enter category: ')
 
-indent(root)
+    indent(root)
 
-tree.write('data.xml')
+    tree.write('data.xml')
+
+    runAgain = input('Add another POI? (y/n): ')
+    if (runAgain == 'n'):
+        run = False
