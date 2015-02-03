@@ -1,0 +1,32 @@
+<root>
+    <!--
+     <poi>
+     <name></name>
+     <key></key>
+     <latitude></latitude>
+     <longitude></longitude>
+     <type></type>
+     </poi>
+     -->
+    <poi>
+        <name>Benson Earth Sciences</name>
+        <key>BESC</key>
+        <latitude>40.007921</latitude>
+        <longitude>-105.265934</longitude>
+        <type>Academic</type>
+    </poi>
+    <poi>
+        <name>Aden Hall</name>
+        <key>ADEN</key>
+        <latitude>40.006811</latitude>
+        <longitude>-105.265382</longitude>
+        <type>Residential</type>
+    </poi>
+    <poi>
+        <name></name>
+        <key></key>
+        <latitude></latitude>
+        <longitude></longitude>
+        <type></type>
+    </poi>
+</root>
