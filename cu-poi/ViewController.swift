@@ -23,19 +23,29 @@ class ViewController: UIViewController {
         
         mapView.setRegion(region, animated: true)
         
-
-        let annotation = MKPointAnnotation()
-        annotation.setCoordinate(startLocation)
-        annotation.title = "University of Colorado Boulder"
-        annotation.subtitle = "Main Campus"
+        mapView.mapType = MKMapType.Hybrid
         
-        mapView.addAnnotation(annotation)
-
+        annotateMap()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func annotateMap(){
+        
+        var locationList: [CLLocationCoordinate2D] = [CLLocationCoordinate2D(latitude: 40.007921, longitude: -105.265934), CLLocationCoordinate2D(latitude: 40.006811, longitude: -105.265382), CLLocationCoordinate2D(latitude: 40.007763, longitude: -105.264566), ]
+        var nameList: [String] = ["Benson Earth Sciences", "Aden Hall", "Mathematics Building"]
+        var keyList: [String] = ["BESC", "ADEN", "MATH"]
+        
+        for index in 0...2 {
+            var annotation = MKPointAnnotation()
+            annotation.setCoordinate(locationList[index])
+            annotation.title = nameList[index]
+            annotation.subtitle = keyList[index]
+            
+            mapView.addAnnotation(annotation)
+        }
     }
     
 }
