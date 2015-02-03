@@ -11,4 +11,22 @@
     <longitude>-105.265382</longitude>
     <type>Residential</type>
   </poi>
+  <poi key="MATH">
+    <name>Mathematics Building</name>
+    <latitude>40.007763</latitude>
+    <longitude>-105.264566</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="LIBY">
+    <name>Libby Hall</name>
+    <latitude>40.006883</latitude>
+    <longitude>-105.266363</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="BKER">
+    <name>Baker Hall</name>
+    <latitude>40.006855</latitude>
+    <longitude>-105.267819</longitude>
+    <category>Residential</category>
+  </poi>
 </data>
