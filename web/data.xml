@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <data>
   <poi key="BESC">
     <name>Benson Earth Sciences</name>
@@ -203,5 +202,113 @@
     <latitude>40.007547</latitude>
     <longitude>-105.270487</longitude>
     <category>Academic</category>
+  </poi>
+  <poi key="KTCH">
+    <name>Ketchum Arts and Sciences</name>
+    <latitude>40.008053</latitude>
+    <longitude>-105.270203</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="CHEM">
+    <name>Cristol Chemistry and Biochemistry</name>
+    <latitude>40.007469</latitude>
+    <longitude>-105.271308</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="CIRE">
+    <name>Cooperative Institute for Research in Environmental Sciences</name>
+    <latitude>40.007901</latitude>
+    <longitude>-105.271405</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="EKLC">
+    <name>Ekeley Sciences</name>
+    <latitude>40.008102</latitude>
+    <longitude>-105.271780</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="UMC">
+    <name>University Memorial Center</name>
+    <latitude>40.006734</latitude>
+    <longitude>-105.271507</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="HLMS">
+    <name>Hellems Arts and Sciences</name>
+    <latitude>40.007572</latitude>
+    <longitude>-105.272762</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="EDUC">
+    <name>Education</name>
+    <latitude>40.007420</latitude>
+    <longitude>-105.273588</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="LIBR">
+    <name>Norlin Library</name>
+    <latitude>40.008727</latitude>
+    <longitude>-105.270772</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="THTR">
+    <name>University Theatre</name>
+    <latitude>40.008147</latitude>
+    <longitude>-105.273567</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="GUGG">
+    <name>Guggenheim Geography</name>
+    <latitude>40.008172</latitude>
+    <longitude>-105.274205</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="HEND">
+    <name>Museum of Natural History</name>
+    <latitude>40.006927</latitude>
+    <longitude>-105.272741</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="DEN">
+    <name>Denison Arts and Sciences</name>
+    <latitude>40.006948</latitude>
+    <longitude>-105.273374</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="MCOL">
+    <name>Bruce Curtis Building (Museum Collections)</name>
+    <latitude>40.007490</latitude>
+    <longitude>-105.274173</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="COTT">
+    <name>Gates Woodruff Women's Studies Cottage</name>
+    <latitude>40.008164</latitude>
+    <longitude>-105.274811</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="ECON">
+    <name>Economics</name>
+    <latitude>40.007827</latitude>
+    <longitude>-105.274532</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="HALE">
+    <name>Hale Science</name>
+    <latitude>40.009226</latitude>
+    <longitude>-105.274951</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="MAIN">
+    <name>Old Main</name>
+    <latitude>40.009226</latitude>
+    <longitude>-105.273315</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="MCKY">
+    <name>Macky Auditorium</name>
+    <latitude>40.009904</latitude>
+    <longitude>-105.272747</longitude>
+    <category>Administration</category>
   </poi>
 </data>
