@@ -17,7 +17,7 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
     setPOI();
-    displayMarkers(map);
+    // displayMarkers(map);
 }
 
 function displayMarkers(map) {
@@ -25,9 +25,15 @@ function displayMarkers(map) {
 
     for(i in poiList) {
         var nMapMarker = new MapMarker(poiList[i], map);
-        nMapMarker.setMap(map);
+        nMapMarker.marker.setMap(map);
         markers.push(nMapMarker);
     }
+}
+
+function displaySingleMarker(poi) {
+    var nMapMarker = new MapMarker(poi, map);
+    nMapMarker.marker.setMap(map);
+    markers.push(nMapMarker);
 }
 
 function setPOI() {
@@ -56,8 +62,10 @@ function setPOI() {
 
             var nPOI = new POI(key, name, lat, long, type);
 
-            poiList.push(nPOI);
-            //console.log("added POI");
+            displaySingleMarker(nPOI);
+
+            //TODO-MG: adding to list but the list isn't holding values after function returns
+            //poiList.push(nPOI);
         });
     }
 }

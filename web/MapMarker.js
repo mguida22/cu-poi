@@ -6,7 +6,6 @@ function MapMarker(POI, map){
     this.map = map;
     this.marker = new google.maps.Marker({
         position: this.POI.coordinate,
-        map: map,
         title: this.POI.name
     });
 }
