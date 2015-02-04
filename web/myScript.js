@@ -30,14 +30,23 @@ function setPOI() {
         });
     });
 
-    function parseXml(xml){
-        $(xml).find("poi").each(function(){
-            var nPOI = new POI($(this).attr("key"),
-                $(this.find("name").text()),
-                $(this.find("latitude").text()),
-                $(this.find("longitude").text()),
-                $(this.find("category").text()));
+    var key, name, lat, long, type = null;
+    function parseXml(xml) {
+        $(xml).find("poi").each(function () {
+            key, name, lat, long, type = null;
+
+            key = $(this).attr("key");
+            name = $(this).find("name").text();
+            lat = $(this).find("latitude").text();
+            long = $(this).find("longitude").text();
+            type = $(this).find("category").text();
+
+            //console.log(key + " " + name + " " + lat + " " + long + " " + type);
+
+            var nPOI = new POI(key, name, lat, long, type);
+
             poiList.push(nPOI);
+            //console.log("added POI");
         });
     }
 }

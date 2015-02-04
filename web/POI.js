@@ -9,7 +9,7 @@ function POI(key, name, lat, long, type) {
     this.type = type;
 
     this.coordinate = new google.maps.LatLng(lat, long);
-
+/*
     this.setKey = function(key){
         this.key = key;
     }
@@ -31,4 +31,5 @@ function POI(key, name, lat, long, type) {
     this.setType = function(type){
         this.type = type;
     }
+*/
 }
