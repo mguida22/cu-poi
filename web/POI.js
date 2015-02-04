@@ -8,6 +8,8 @@ function POI(key, name, lat, long, type) {
     this.long = long;
     this.type = type;
 
+    this.coordinate = new google.maps.LatLng(lat, long);
+
     this.setKey = function(key){
         this.key = key;
     }
@@ -18,10 +20,12 @@ function POI(key, name, lat, long, type) {
 
     this.setLat = function(lat){
         this.lat = lat;
+        this.coordinate = new google.maps.LatLng(lat, long);
     }
 
     this.setLong = function(long){
         this.long = long;
+        this.coordinate = new google.maps.LatLng(lat, long);
     }
 
     this.setType = function(type){

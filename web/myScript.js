@@ -4,6 +4,7 @@
 
 var map;
 var markers = [];
+var poiList = [];
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
@@ -20,41 +21,23 @@ function initialize() {
 
 function setPOI() {
     //parse xml here
-
-    var location = new google.maps.LatLng(40.007921, -105.265934);
-
-    //loop through and add markers
-    addMarker(location)
-}
-
-// Add a marker to the map and push to the array.
-function addMarker(location) {
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
+    $(document).ready(function(){
+        $.ajax({
+            type: "GET",
+            url: "data.xml",
+            dataType: "xml",
+            success: function(xml) { parseXml(xml); }
+        });
     });
-    markers.push(marker);
-}
 
-// Sets the map on all markers in the array.
-function setAllMap(map) {
-    for (var i = 0; i < markers.length; i++) {
-        markers[i].setMap(map);
+    function parseXml(xml){
+        $(xml).find("poi").each(function(){
+            var nPOI = new POI($(this).attr("key"),
+                $(this.find("name").text()),
+                $(this.find("latitude").text()),
+                $(this.find("longitude").text()),
+                $(this.find("category").text()));
+            poiList.push(nPOI);
+        });
     }
-}
-
-// Removes the markers from the map, but keeps them in the array.
-function clearMarkers() {
-    setAllMap(null);
-}
-
-// Shows any markers currently in the array.
-function showMarkers() {
-    setAllMap(map);
-}
-
-// Deletes all markers in the array by removing references to them.
-function deleteMarkers() {
-    clearMarkers();
-    markers = [];
 }
