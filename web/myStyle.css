@@ -1,13 +1,16 @@
 html, body {
     height: 90%;
-    background-color: gray;
+    background-color: #3DBBCC;
     font-family: "Verdana", sans-serif;
 }
 
 #header {
     height: 10%;
-    color: gold;
+    background-color: #4C797F;
+    color: white;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 #map-canvas {
