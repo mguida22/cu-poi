@@ -1,6 +1,7 @@
 html, body {
     height: 90%;
     background-color: gray;
+    font-family: "Verdana", sans-serif;
 }
 
 #header {
