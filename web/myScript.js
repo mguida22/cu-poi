@@ -17,6 +17,17 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
     setPOI();
+    displayMarkers(map);
+}
+
+function displayMarkers(map) {
+    //display all POI here
+
+    for(i in poiList) {
+        var nMapMarker = new MapMarker(poiList[i], map);
+        nMapMarker.setMap(map);
+        markers.push(nMapMarker);
+    }
 }
 
 function setPOI() {
