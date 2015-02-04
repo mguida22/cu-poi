@@ -34,6 +34,18 @@ function displaySingleMarker(poi) {
     var nMapMarker = new MapMarker(poi, map);
     nMapMarker.marker.setMap(map);
     markers.push(nMapMarker);
+
+    var infowindow = new google.maps.InfoWindow();
+    google.maps.event.addListener(nMapMarker.marker, 'click', function() {
+        infowindow.setContent(nMapMarker.POI.name);
+
+        if (nMapMarker.infoIsOpen){
+            infowindow.close();
+        } else {
+            infowindow.open(map,nMapMarker.marker);
+        }
+        nMapMarker.toggleInfoWindow();
+    });
 }
 
 function setPOI() {
