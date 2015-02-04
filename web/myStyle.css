@@ -1,0 +1,14 @@
+html, body {
+    height: 90%;
+    background-color: gray;
+}
+
+#header {
+    height: 10%;
+    color: gold;
+    text-align: center;
+}
+
+#map-canvas {
+    height: 90%;
+}
