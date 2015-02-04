@@ -22,6 +22,7 @@ function setPOI() {
     //parse xml here
 
     var location = new google.maps.LatLng(40.007921, -105.265934);
+
     //loop through and add markers
     addMarker(location)
 }
