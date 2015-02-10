@@ -317,4 +317,16 @@
     <longitude>-105.270010</longitude>
     <category>Academic</category>
   </poi>
+  <poi key="CLUB">
+    <name>Univeristy CLub</name>
+    <latitude>40.005411</latitude>
+    <longitude>-105.270656</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="DALW">
+    <name>Dal Ward Athletic Center</name>
+    <latitude>40.010362</latitude>
+    <longitude>-105.266863</longitude>
+    <category>Administration</category>
+  </poi>
 </data>
