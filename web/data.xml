@@ -311,4 +311,10 @@
     <longitude>-105.272747</longitude>
     <category>Administration</category>
   </poi>
+  <poi key="CLRE">
+    <name>Clare Small Arts and Sciences</name>
+    <latitude>40.010502</latitude>
+    <longitude>-105.270010</longitude>
+    <category>Academic</category>
+  </poi>
 </data>
