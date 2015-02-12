@@ -17,12 +17,10 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
     setPOI();
-    // displayMarkers(map);
 }
 
 function displayMarkers(map) {
     //display all POI here
-
     for(i in poiList) {
         var nMapMarker = new MapMarker(poiList[i], map);
         nMapMarker.marker.setMap(map);
@@ -48,6 +46,11 @@ function displaySingleMarker(poi) {
     });
 }
 
+function addPOItoList(poi) {
+    poiList.push(poi);
+    //console.log(poiList);
+}
+
 function setPOI() {
     //parse xml here
     $(document).ready(function(){
@@ -59,25 +62,23 @@ function setPOI() {
         });
     });
 
-    var key, name, lat, long, type = null;
+    var key, name, lat, lng, type = null;
     function parseXml(xml) {
         $(xml).find("poi").each(function () {
-            key, name, lat, long, type = null;
+            key, name, lat, lng, type = null;
 
             key = $(this).attr("key");
             name = $(this).find("name").text();
             lat = $(this).find("latitude").text();
-            long = $(this).find("longitude").text();
+            lng = $(this).find("longitude").text();
             type = $(this).find("category").text();
 
             //console.log(key + " " + name + " " + lat + " " + long + " " + type);
 
-            var nPOI = new POI(key, name, lat, long, type);
+            var nPOI = new POI(key, name, lat, lng, type);
 
             displaySingleMarker(nPOI);
-
-            //TODO-MG: adding to list but the list isn't holding values after function returns
-            //poiList.push(nPOI);
+            addPOItoList(nPOI);
         });
     }
 }
