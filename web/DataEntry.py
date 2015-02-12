@@ -19,9 +19,14 @@ def indent(elem, level=0):
 tree = ET.parse('data.xml')
 root = tree.getroot()
 
+#TODO add support for storing list of keys
+
 run = True
 while(run):
     poi = ET.SubElement(root, 'poi')
+
+    #TODO add support to check key vs list of keys already entered
+
     poi.set('key', input('Enter key: '))
 
     name = ET.SubElement(poi, 'name')
