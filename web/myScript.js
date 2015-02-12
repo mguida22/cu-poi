@@ -19,6 +19,7 @@ function initialize() {
     setPOI();
 }
 
+/*
 function displayMarkers(map) {
     //display all POI here
     for(i in poiList) {
@@ -27,6 +28,7 @@ function displayMarkers(map) {
         markers.push(nMapMarker);
     }
 }
+*/
 
 function displaySingleMarker(poi) {
     var nMapMarker = new MapMarker(poi, map);
