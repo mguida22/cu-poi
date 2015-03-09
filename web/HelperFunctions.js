@@ -31,3 +31,21 @@ function getPOIofType(type, poiList){
 	}
 	return ret;
 }
+
+
+
+/*
+ * Provided with a coordinate and range
+ * getPOIinRange will return all POI in
+ * the list provided within range
+ */
+function getPOIinRange(lat, lng, poiList, range){
+	var ret = [];
+	for (var i = 0; i < poiList.length; i++){
+		var distance = Math.sqrt((poiList[i].lat - lat)^2
+			+ (poiList[i].long - lng)^2);
+		if (distance <= range) {
+			ret.push(poiList[i]);
+		}
+	}
+}
