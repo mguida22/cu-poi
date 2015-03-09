@@ -16,3 +16,18 @@ function getClosestPOI(lat, lng, poiList) {
 	}
 	return closestPOI;
 }
+
+/*
+ * Provided with a type of POI
+ * getPOIofType will return all
+ * POI of that type in the list provided
+ */
+function getPOIofType(type, poiList){
+	var ret = [];
+	for (var i = 0; i < poiList.length; i++) {
+		if (poiList[i].type == type){
+			ret.push(poiList[i]);
+		}
+	}
+	return ret;
+}
