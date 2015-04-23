@@ -1,3 +1,8 @@
+/*
+ * Converts xml data into JSON
+ * Michael Guida
+ */
+
 var fs = require('fs'),
     xml2js = require('xml2js');
 

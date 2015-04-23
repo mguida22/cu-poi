@@ -1,7 +1,9 @@
 /**
- * POI object class
+ * All objects used for project
  * Michael Guida
  */
+
+//POI Objects 
 function POI(key, name, lat, long, type) {
     this.key = key;
     this.name = name;
@@ -32,4 +34,20 @@ function POI(key, name, lat, long, type) {
     this.setType = function(type){
         this.type = type;
     }
+}
 
+//MapMarker Objects
+function MapMarker(POI, map){
+    this.POI = POI;
+    this.map = map;
+    this.infoIsOpen = false;
+
+    this.marker = new google.maps.Marker({
+        position: this.POI.coordinate,
+        title: this.POI.name
+    });
+
+    this.toggleInfoWindow = function(){
+        this.infoIsOpen = !this.infoIsOpen
+    }
+}

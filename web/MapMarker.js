@@ -1,5 +1,5 @@
 /**
- * Created by michael on 2/4/15.
+ * Map Marker object class
  */
 function MapMarker(POI, map){
     this.POI = POI;

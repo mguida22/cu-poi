@@ -1,4 +1,11 @@
 /*
+ * Helper functions for the map
+ * Michael Guida
+ */
+
+
+
+/*
  * Provided with the coordinate of a search point
  * getClosestPOI will return the closest POI
  * in the list provided

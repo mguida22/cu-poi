@@ -1,3 +1,8 @@
+#
+# Handles adding new POI data to xml file
+# Michael Guida
+#
+
 import xml.etree.ElementTree as ET
 
 def indent(elem, level=0):

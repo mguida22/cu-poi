@@ -1,5 +1,6 @@
 /**
- * Created by michael on 2/3/15.
+ * Main code to display map and markers
+ * Michael Guida
  */
 
 var map;
@@ -58,7 +59,7 @@ function setPOI() {
     $(document).ready(function(){
         $.ajax({
             type: "GET",
-            url: "data.xml",
+            url: "../data/data.xml",
             dataType: "xml",
             success: function(xml) { parseXml(xml); }
         });
