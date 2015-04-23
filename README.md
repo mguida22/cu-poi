@@ -3,7 +3,7 @@
 > This project is currently a work in progress
 
 ##TODO
-- Restructure project
 - Add other helper functions
+- Add other data points
 - Fix support for JSON
 - Write instructions for use
