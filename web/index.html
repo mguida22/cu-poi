@@ -1,21 +1,44 @@
 <!-- 
-	Main webpage to display map
-	Michael Guida
+Main webpage to display map
+Michael Guida
 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>CU POI</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <script src="script.js"></script>
     <script src="objects.js"></script>
     <script src="HelperFunctions.js"></script>
+
 </head>
 <body>
-    <div id="header">
-        <h1>CU Campus Map</h1>
+
+    <div class="container">
+        <section id="header" class="header">
+            <h2 class="title">CU Campus Map</h2>
+        </section>
+
+        <div id="map-canvas"></div>
     </div>
-    <div id="map-canvas"></div>
+
 </body>
 </html>

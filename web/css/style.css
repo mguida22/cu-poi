@@ -1,0 +1,21 @@
+/*
+ * Custom styling
+ * Michael Guida
+ */
+
+html, body {
+    height: 90%;
+}
+
+#map-canvas {
+    height: 90%;
+}
+
+.header {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.container {
+    height: 100%;
+}

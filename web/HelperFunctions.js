@@ -3,8 +3,6 @@
  * Michael Guida
  */
 
-
-
 /*
  * Provided with the coordinate of a search point
  * getClosestPOI will return the closest POI
@@ -39,8 +37,6 @@ function getPOIofType(type, poiList){
 	return ret;
 }
 
-
-
 /*
  * Provided with a coordinate and range
  * getPOIinRange will return all POI in
@@ -55,4 +51,12 @@ function getPOIinRange(lat, lng, poiList, range){
 			ret.push(poiList[i]);
 		}
 	}
+}
+
+function searchByName(name, poiList){
+
+}
+
+function searchByCategory(cat, poiList){
+
 }

@@ -51,7 +51,6 @@ function displaySingleMarker(poi) {
 
 function addPOItoList(poi) {
     poiList.push(poi);
-    //console.log(poiList);
 }
 
 function setPOI() {
