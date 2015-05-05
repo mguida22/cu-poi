@@ -7,3 +7,5 @@
 - Add other data points
 - Fix support for JSON
 - Write instructions for use
+- Add other pages to website
+- Split project into api and website
