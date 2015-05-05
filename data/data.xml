@@ -329,4 +329,214 @@
     <longitude>-105.266863</longitude>
     <category>Administration</category>
   </poi>
+  <poi key="ALUM">
+    <name>Koenig Alumni Center</name>
+    <latitude>40.009944</latitude>
+    <longitude>-105.275941</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="MKNA">
+    <name>McKenna Languages</name>
+    <latitude>40.009723</latitude>
+    <longitude>-105.273608</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="PFDC">
+    <name>Page Foundation Center</name>
+    <latitude>40.010808</latitude>
+    <longitude>-105.275697</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="IBS">
+    <name>Institute of Behavioral Science</name>
+    <latitude>40.011308</latitude>
+    <longitude>-105.274428</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="ARMR">
+    <name>Armory</name>
+    <latitude>40.010906</latitude>
+    <longitude>-105.273892</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="CAS">
+    <name>Center for Asian Studies</name>
+    <latitude>40.011132</latitude>
+    <longitude>-105.276884</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="CEDU">
+    <name>Continuing Education</name>
+    <latitude>40.010813</latitude>
+    <longitude>-105.274416</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="CICC">
+    <name>College Inn</name>
+    <latitude>40.012805</latitude>
+    <longitude>-105.271864</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="ATCT">
+    <name>Athens Court</name>
+    <latitude>40.012252</latitude>
+    <longitude>-105.268884</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="ATHN">
+    <name>Athens North Court</name>
+    <latitude>40.012888</latitude>
+    <longitude>-105.270823</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="FACT">
+    <name>Faculty-Staff Court</name>
+    <latitude>40.012276</latitude>
+    <longitude>-105.270771</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="MRCT">
+    <name>Marine Court</name>
+    <latitude>40.013080</latitude>
+    <longitude>-105.268249</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="W-AP">
+    <name>Athletics Practice Field</name>
+    <latitude>40.012375</latitude>
+    <longitude>-105.266139</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="NTCT">
+    <name>Newton Court</name>
+    <latitude>40.013324</latitude>
+    <longitude>-105.264623</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="WDBY">
+    <name>Woodbury Arts and Sciences</name>
+    <latitude>40.009220</latitude>
+    <longitude>-105.272304</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="HUMN">
+    <name>Eaton Humanities</name>
+    <latitude>40.009190</latitude>
+    <longitude>-105.271850</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="RAMY">
+    <name>Ramaley Biology</name>
+    <latitude>40.008922</latitude>
+    <longitude>-105.269671</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="REC">
+    <name>Student Recreation Center</name>
+    <latitude>40.009835</latitude>
+    <longitude>-105.269603</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="PORT">
+    <name>Porter Biosciences</name>
+    <latitude>40.008932</latitude>
+    <longitude>-105.268873</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="GOLD">
+    <name>Gold Biosciences Building</name>
+    <latitude>40.008665</latitude>
+    <longitude>-105.268246</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="MUEN">
+    <name>Muenzinger Psychology</name>
+    <latitude>40.008467</latitude>
+    <longitude>-105.268898</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="CARL">
+    <name>Carlson Gymnasium</name>
+    <latitude>40.009451</latitude>
+    <longitude>-105.268679</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="UCTR">
+    <name>University Administrative Center</name>
+    <latitude>40.004102</latitude>
+    <longitude>-105.268092</longitude>
+    <category>Administrative</category>
+  </poi>
+  <poi key="RGNT">
+    <name>Regent Administrative Center</name>
+    <latitude>40.004412</latitude>
+    <longitude>-105.267036</longitude>
+    <category>Administrative</category>
+  </poi>
+  <poi key="C4C">
+    <name>Center for Community</name>
+    <latitude>40.004386</latitude>
+    <longitude>-105.264981</longitude>
+    <category>Administrative</category>
+  </poi>
+  <poi key="FLMG">
+    <name>Fleming Building</name>
+    <latitude>40.002023</latitude>
+    <longitude>-105.263419</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="WLAW">
+    <name>Wolf Law</name>
+    <latitude>40.001211</latitude>
+    <longitude>-105.262330</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="FISK">
+    <name>Fiske Planetarium and Science Center</name>
+    <latitude>40.003594</latitude>
+    <longitude>-105.263417</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="OBSV">
+    <name>Sommers-Bausch Observatory</name>
+    <latitude>40.003698</latitude>
+    <longitude>-105.262987</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="SLHS">
+    <name>Speech Language and Hearing Sciences</name>
+    <latitude>40.003864</latitude>
+    <longitude>-105.262497</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="EVNT">
+    <name>Coors Event/Conference Center</name>
+    <latitude>40.004647</latitude>
+    <longitude>-105.260612</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="EC">
+    <name>Engineering Center</name>
+    <latitude>40.007187</latitude>
+    <longitude>-105.263063</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="KOBL">
+    <name>Koelbel Building</name>
+    <latitude>40.005867</latitude>
+    <longitude>-105.263457</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="PDPS">
+    <name>Police and Parking Services</name>
+    <latitude>40.006785</latitude>
+    <longitude>-105.261081</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="LESS">
+    <name>Lesser House</name>
+    <latitude>40.008427</latitude>
+    <longitude>-105.26176</longitude>
+    <category>Academic</category>
+  </poi>
 </data>
