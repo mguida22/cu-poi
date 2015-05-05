@@ -539,4 +539,124 @@
     <longitude>-105.26176</longitude>
     <category>Academic</category>
   </poi>
+  <poi key="STAD">
+    <name>Folsom Field</name>
+    <latitude>40.009393</latitude>
+    <longitude>-105.266914</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="ARCE">
+    <name>Administrative and Research Center</name>
+    <latitude>40.013168</latitude>
+    <longitude>-105.251935</longitude>
+    <category>Administrative</category>
+  </poi>
+  <poi key="CASA">
+    <name>Center for Astrophysics and Space Astronomy</name>
+    <latitude>40.008032</latitude>
+    <longitude>-105.246324</longitude>
+    <category>Academic</category>
+  </poi>
+  <poi key="COMP">
+    <name>Computing Center</name>
+    <latitude>40.014055</latitude>
+    <longitude>-105.247225</longitude>
+    <category>Administrative</category>
+  </poi>
+  <poi key="GH-3">
+    <name>Research Park Greenhouse</name>
+    <latitude>40.010670</latitude>
+    <longitude>-105.252461</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="HSSC">
+    <name>Housing System Service Center</name>
+    <latitude>40.013930</latitude>
+    <longitude>-105.249286</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="HSMC">
+    <name>Housing System Maintenance Center</name>
+    <latitude>40.013021</latitude>
+    <longitude>-105.248581</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="IBG">
+    <name>Institute for Behavioral Genetics</name>
+    <latitude>40.011720</latitude>
+    <longitude>-105.252917</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="LITR">
+    <name>Research Laboratory No. 1, Litman</name>
+    <latitude>40.013215</latitude>
+    <longitude>-105.253012</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="LSRL">
+    <name>Research Laboratory No. 4, Life Science</name>
+    <latitude>40.012096</latitude>
+    <longitude>-105.252823</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="LSTR">
+    <name>LASP Space Technology Research Center</name>
+    <latitude>40.009111</latitude>
+    <longitude>-105.247411</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="MSSC">
+    <name>Research Laboratory No. 6, Marine Street Science Center</name>
+    <latitude>40.013971</latitude>
+    <longitude>-105.250238</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="RL2">
+    <name>Research Laboratory No. 2, RL2</name>
+    <latitude>40.012571</latitude>
+    <longitude>-105.253023</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="SLL">
+    <name>Science Learning Laboratory</name>
+    <latitude>40.012800</latitude>
+    <longitude>-105.249805</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="SMCT">
+    <name>Smiley Court</name>
+    <latitude>40.008911</latitude>
+    <longitude>-105.252435</longitude>
+    <category>Residential</category>
+  </poi>
+  <poi key="SPSC">
+    <name>Space Science Building</name>
+    <latitude>40.011645</latitude>
+    <longitude>-105.245723</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="TRAN">
+    <name>Transportation Center and Annex</name>
+    <latitude>40.013984</latitude>
+    <longitude>-105.251229</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="W-PF">
+    <name>Potts Field</name>
+    <latitude>40.010404</latitude>
+    <longitude>-105.248638</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="W-PRF">
+    <name>Prentup Field</name>
+    <latitude>40.010234</latitude>
+    <longitude>-105.250434</longitude>
+    <category>Administration</category>
+  </poi>
+  <poi key="MAC">
+    <name>MacAllister Building</name>
+    <latitude>40.009776</latitude>
+    <longitude>-105.242180</longitude>
+    <category>Administration</category>
+  </poi>
 </data>
