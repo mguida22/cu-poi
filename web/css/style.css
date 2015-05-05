@@ -11,11 +11,33 @@ html, body {
     height: 90%;
 }
 
+.nav-spacer {
+    padding: 10px;
+}
+
+.nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 3em;
+}
+
+.nav-list {
+    list-style: none;
+    vertical-align: middle;
+}
+
 .header {
   margin-top: 3rem;
-  text-align: center;
 }
 
 .container {
     height: 100%;
+}
+
+.center {
+    text-align: center;
 }
