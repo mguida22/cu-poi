@@ -58,7 +58,7 @@ function setPOI() {
     $(document).ready(function(){
         $.ajax({
             type: "GET",
-            url: "../../data/data.xml",
+            url: "data/data.xml",
             dataType: "xml",
             success: function(xml) { parseXml(xml); }
         });
